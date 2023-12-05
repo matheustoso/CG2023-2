@@ -147,6 +147,7 @@
     <None Include="shader.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\3DViewer\Animation.h" />
     <ClInclude Include="..\include\3DViewer\Camera.h" />
     <ClInclude Include="..\include\3DViewer\Mesh.h" />
     <ClInclude Include="..\include\3DViewer\Model.h" />

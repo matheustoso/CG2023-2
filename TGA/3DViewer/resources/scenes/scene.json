@@ -1,0 +1,835 @@
+{
+  "camera": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 20.0
+    },
+
+    "front": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.0
+    },
+
+    "worldUp": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+
+    "yaw": -90.0,
+    "pitch": 0.0,
+    "speed": 25.0
+  },
+
+  "lighting": {
+    "spotlight": true,
+
+    "direction": {
+      "x": 0.0,
+      "y": 30.0,
+      "z": 0.0
+    },
+
+    "ambient": {
+      "x": 0.7,
+      "y": 0.3,
+      "z": 0.3
+    },
+
+    "diffuse": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+
+    "specular": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+
+  "objects": [
+    {
+      "path": "resources/objects/RocksLowPoly_Obj/RocksLowPoly.obj",
+      "name": "Mountains",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.0,
+        "y": -20.0,
+        "z": -20.0
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Golgotha/Golgotha.obj",
+      "name": "Golgotha",
+
+      "isAnimated": false,
+      "animateRotationX": true,
+      "animateRotationY": true,
+      "animateRotationZ": true,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.0,
+        "y": 20.0,
+        "z": -50.0
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.7
+    },
+    {
+      "path": "resources/objects/Fantasy/house_001.obj",
+      "name": "Mushroom House",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.0,
+        "y": -7.767,
+        "z": -19.418
+      },
+
+      "rotate": {
+        "x": 309.32,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Bear/BearSaddle.obj",
+      "name": "Hiking Bear",
+
+      "isAnimated": true,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -60.0,
+        "y": -5.2,
+        "z": -26.5
+      },
+
+      "rotate": {
+        "x": 250.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/big_fabulous_tree_001.obj",
+      "name": "Blue Tree",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": true,
+
+      "translate": {
+        "x": -26.0,
+        "y": -0.5,
+        "z": -18.5
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/barrel_001.obj",
+      "name": "Barrel",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -0.763,
+        "y": -7.633,
+        "z": -15.267
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/box_001.obj",
+      "name": "Box",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.0,
+        "y": -7.633,
+        "z": -15.999
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.4
+    },
+    {
+      "path": "resources/objects/Fantasy/crane_001.obj",
+      "name": "Crane",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 1.187,
+        "y": -7.715,
+        "z": -12.463
+      },
+
+      "rotate": {
+        "x": 274.540,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/fabulous_mushroom_001.obj",
+      "name": "Yellow Mushroom",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 7.548,
+        "y": -22.641,
+        "z": -11.321
+      },
+
+      "rotate": {
+        "x": 275.094,
+        "y": 0.0,
+        "z": 329.434
+      },
+
+      "scale": 1.660
+    },
+    {
+      "path": "resources/objects/Fantasy/fabulous_mushroom_002.obj",
+      "name": "Purple Mushroom",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 1.347,
+        "y": -24.243,
+        "z": -9.428
+      },
+
+      "rotate": {
+        "x": 88.485,
+        "y": 334.545,
+        "z": 0.0
+      },
+
+      "scale": 0.335
+    },
+    {
+      "path": "resources/objects/Fantasy/table_001.obj",
+      "name": "Table",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.481,
+        "y": -7.692,
+        "z": -14.423
+      },
+
+      "rotate": {
+        "x": 133.269,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/holder_001.obj",
+      "name": "Holder",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 3.587,
+        "y": -8.034,
+        "z": -19.799
+      },
+
+      "rotate": {
+        "x": 71.277,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/house_002.obj",
+      "name": "Shop",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 32.693,
+        "y": -9.230,
+        "z": -23.462
+      },
+
+      "rotate": {
+        "x": 322.616,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 0.8
+    },
+    {
+      "path": "resources/objects/Fantasy/house_003.obj",
+      "name": "House",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 32.432,
+        "y": -23.587,
+        "z": -14.004
+      },
+
+      "rotate": {
+        "x": 319.312,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/cactus_001.obj",
+      "name": "Cactus",
+
+      "isAnimated": true,
+      "animateRotationX": true,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 60.094,
+        "y": -29.453,
+        "z": -18.765
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 3.0
+    },
+    {
+      "path": "resources/objects/Fantasy/stall_001.obj",
+      "name": "Stall",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 6.142,
+        "y": -7.963,
+        "z": -17.975
+      },
+
+      "rotate": {
+        "x": 221.160,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.228
+    },
+    {
+      "path": "resources/objects/Fantasy/plate_001.obj",
+      "name": "Plate",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 0.248,
+        "y": -6.947,
+        "z": -14.640
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/jug_001.obj",
+      "name": "Jug 1",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 1.378,
+        "y": -6.886,
+        "z": -14.696
+      },
+
+      "rotate": {
+        "x": 69.613,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/jug_002.obj",
+      "name": "Jug 2",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 7.109,
+        "y": -7.463,
+        "z": -17.536
+      },
+
+      "rotate": {
+        "x": 80.156,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/jug_003.obj",
+      "name": "Jug 3",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 6.339,
+        "y": -7.492,
+        "z": -19.020
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/jug_004.obj",
+      "name": "Jug 4",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 4.682,
+        "y": -7.577,
+        "z": -18.596
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.154
+    },
+    {
+      "path": "resources/objects/Fantasy/jug_005.obj",
+      "name": "Jug 5",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 5.652,
+        "y": -7.617,
+        "z": -19.165
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/bucket_001.obj",
+      "name": "Bucket",
+
+      "isAnimated": true,
+      "animateRotationX": true,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": 2.677,
+        "y": -6.929,
+        "z": -16.536
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.5
+    },
+    {
+      "path": "resources/objects/Fantasy/log_001.obj",
+      "name": "Log 1",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -50.504,
+        "y": -5.151,
+        "z": -27.099
+      },
+
+      "rotate": {
+        "x": 251.153,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/log_002.obj",
+      "name": "Log 2",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -54.798,
+        "y": -5.303,
+        "z": -25.253
+      },
+
+      "rotate": {
+        "x": 114.091,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.542
+    },
+    {
+      "path": "resources/objects/Fantasy/log_003.obj",
+      "name": "Log 3",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -53.380,
+        "y": -5.361,
+        "z": -24.476
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/log_004.obj",
+      "name": "Log 4",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -52.701,
+        "y": -5.281,
+        "z": -25.210
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.0
+    },
+    {
+      "path": "resources/objects/Fantasy/fir_001.obj",
+      "name": "Fir",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -52.093,
+        "y": -5.582,
+        "z": -21.861
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.768
+    },
+    {
+      "path": "resources/objects/Fantasy/tree_001.obj",
+      "name": "Tree",
+
+      "isAnimated": false,
+      "animateRotationX": false,
+      "animateRotationY": false,
+      "animateRotationZ": false,
+      "animateScale": false,
+
+      "translate": {
+        "x": -58.937,
+        "y": -5.319,
+        "z": -30.213
+      },
+
+      "rotate": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+
+      "scale": 1.223
+    }
+  ],
+  "animations": [
+    {
+      "prop": "Hiking Bear",
+      "loop": true,
+      "curve": 0,
+      "controlPoints": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 2.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 4.0,
+          "y": 0.0,
+          "z": 2.0
+        },
+        {
+          "x": 4.0,
+          "y": 0.0,
+          "z": -2.0
+        }
+      ]
+    },
+    {
+      "prop": "Cactus",
+      "loop": true,
+      "curve": 1,
+      "controlPoints": [
+        {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": -0.5,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "prop": "Bucket",
+      "loop": true,
+      "curve": 2,
+      "controlPoints": [
+        {
+          "x": 0.0,
+          "y": -0.8,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": -0.5,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.8,
+          "z": 0.0
+        }
+      ]
+    }
+  ]
+}

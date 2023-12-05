@@ -1,0 +1,10 @@
+# Created with Anim8or 1.00
+# Object "Rocks Low Poly":
+
+newmtl Gradient
+Ka 0.133 0.133 0.133
+Kd 0.439 0.439 0.439
+Ks 0.173 0.173 0.173
+Ns 752.6
+map_Kd Gradient07.png
+
